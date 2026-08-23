@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La buena mesa</title>
+</head>
+<body>
+    <header>
+        <h1>La buena mesa</h1>
+        <p> Comida casera, sabor real</p>
+        <nav>
+            <ul>
+                <li><a href="#menu"> Menú</a></li>
+                <li><a href="#nosotros"> Nosotros</a></li>
+                <li><a href="#reserva"> Reservas</a></li>
+                <li><a href="ubicacion.html"> ¿Cómo llegar?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--secion menú-->
+        <section id= "menu">
+            <h2> Menú del día</h2> 
+            <acticle>
+                <h3>Milanesas con fideos</h3>
+                <p> Milanesa de carne servida con fideos cinta y queso gratinado</p>
+
+            </acticle>
+            <acticle>
+                <h3>Costeleta de cerdo a la riojana</h3>
+                <p> Costeleta de cerdo servida revuelto de jamón, arvejas, cebollas caramelizadas y con guarnición de papas y camotes al horno</p>
+
+            </acticle>
+            <acticle>
+                <h3>Ñoquis con salsa boloñesa</h3>
+                <p> Ñoquis de papa servido con estofado de carne</p>
+
+            </acticle>
+        </section">
+        <hr>
+        <aside id="nosotros">
+            <h2> Sobre nosotros</h2>
+            <p> Somos un restaurante que busca ofrecer comidas ricas y caseras a un buen precio</p>
+        </aside>
+        <hr>
+
+        <section id="reserva">
+            <h2> Reservá tu mesa</h2>
+           <form>
+                <fieldset>
+                    <legend>Datos de la reserva</legend>
+                    
+                    <label for="nombre"> Nombre: </label>
+                    <input type="texto" id="nombre" name="nombre" placeholder="Guillermo" required> <br><br>
+                    
+                    
+                    <label for="email"> Correo electrónico: </label>
+                    <input type="email" id="email" name="email" placeholder="usuario@correo.com" required> <br><br>
+                    
+                    
+                    <label for="fecha"> Fecha: </label>
+                    <input type="date" id="fecha" name="fecha" required> <br><br>
+
+                    <label for="hora"> Hora: </label>
+                    <input type="time" id="hora" name="hora" required> <br><br>
+                    
+                    <label for="personas"> Cantidad de personas: </label>
+                    <input type="number" id="personas" name="personas" placeholder="2" required min="1" max="20"> <br><br>
+                    
+                    <label> Comentario adicional</label><br>
+                    <textarea id="comentario" name="comentario" rows="4"
+                    placeholder="Ej: preferencia de ubicación, restricción alimentaria, etc.">
+                </textarea>
+
+                <button type="submit">Reserva</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 La buena Mesa. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
