@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotebookLM en la Universidad - Blog de Estudio</title>
+</head>
+<body>
+
+    <!-- 1. HEADER -->
+    <header>
+        <h1>Aprender Mejor: NotebookLM en la Universidad</h1>
+        <nav aria-label="Navegación principal del blog">
+            <ul>
+                <li><a href="#articulos">Artículos</a></li>
+                <li><a href="#recursos">Recursos Externos</a></li>
+                <li><a href="#contacto">Soporte y Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- 2. MAIN -->
+    <main id="articulos" tabindex="0">
+
+        <!-- Artículo 1 -->
+        <article>
+            <h2>¿Qué es NotebookLM y por qué revoluciona el estudio universitario?</h2>
+            <p>
+                NotebookLM es una herramienta de inteligencia artificial desarrollada por Google diseñada para actuar como un 
+                asistente de investigación personalizado. A diferencia de ChatGPT, trabaja exclusivamente con la documentación 
+                que el estudiante le proporciona (apuntes, PDFs de la facultad, libros de texto y diapositivas de clases).
+            </p>
+            <h3>Principales ventajas para los estudiantes:</h3>
+            <ul>
+                <li>Respuestas 100% basadas en tu material de estudio (evita alucinaciones e información falsa).</li>
+                <li>Citas directas con la página exacta del documento original para verificar la fuente.</li>
+                <li>Generación automática de "Audio Overviews" (resúmenes en formato de podcast entre dos voces sintetizadas).</li>
+                <li>Privacidad de datos: tus documentos subidos no se utilizan para entrenar el modelo general.</li>
+            </ul>
+        </article>
+
+        <hr>
+
+        <!-- Artículo 2 -->
+        <article>
+            <h2>3 Pasos para integrar NotebookLM en tu rutina de estudio</h2>
+            <p>
+                Para sacarle el máximo provecho en materias complejas como Programación, Matemática o Derecho, es fundamental 
+                mantener una estructura organizada al momento de cargar los contenidos.
+            </p>
+            <h3>Guía rápida de integración:</h3>
+            <ol>
+                <li><strong>Crea un cuaderno por materia:</strong> Agrupa todo el programa analítico y la bibliografía obligatoria en un solo lugar.</li>
+                <li><strong>Genera guías de estudio interactivas:</strong> Pídele a la IA que cree preguntas tipo examen, glosarios de términos clave o cuadros comparativos.</li>
+                <li><strong>Repasa mediante resúmenes de audio:</strong> Escucha la síntesis en audio mientras viajas hacia la facultad o realizas otras tareas.</li>
+            </ol>
+        </article>
+
+    </main>
+
+    <hr>
+
+    <!-- 3. ASIDE -->
+    <aside id="recursos">
+        <h2>Páginas de interés y Lecturas recomendadas</h2>
+        <p>Explora análisis detallados sobre el impacto de NotebookLM en la educación superior:</p>
+        <ul>
+            <li>
+                <a href="https://www.xataka.com/basics/notebooklm-que-como-funciona-como-usar-ia-google-para-organizar-fuentes-informacion-crear-podcasts-minutos" target="_blank" rel="noopener noreferrer">
+                    Xataka: Análisis y guía de uso de NotebookLM
+                </a>
+            </li>
+            <li>
+                <a href="https://notebooklm.google.com" target="_blank" rel="noopener noreferrer">
+                    Acceder a Google NotebookLM (Sitio Oficial)
+                </a>
+            </li>
+            <li>
+                <a href="https://www.genbeta.com" target="_blank" rel="noopener noreferrer">
+                    Genbeta: Novedades sobre IA aplicada a la productividad
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <hr>
+
+    <!-- 4. FOOTER -->
+    <footer id="contacto">
+        <h2>Tabla de Contactos del Equipo de Tutorías</h2>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Cargo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Martín Benítez</td>
+                    <td>mbenitez@universidad.edu.ar</td>
+                    <td>Tutor de Tecnología Educativa</td>
+                </tr>
+                <tr>
+                    <td>Sofía Rossi</td>
+                    <td>srossi@universidad.edu.ar</td>
+                    <td>Coordinadora Pedagógica</td>
+                </tr>
+                <tr>
+                    <td>Gonzalo Méndez</td>
+                    <td>gmendez@universidad.edu.ar</td>
+                    <td>Soporte Técnico e IA</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <p>&copy; 2026 Blog de Investigación Educativa - Tecnicatura Universitaria en Programación</p>
+    </footer>
+
+</body>
+</html>
