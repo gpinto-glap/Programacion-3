@@ -17,7 +17,7 @@ public class Main {
 
         Field campoNombre = clasePersona.getDeclaredField("nombre");
         campoNombre.setAccessible(true);
-        campoNombre.set(persona, "María");
+        campoNombre.set(persona, "Guillermo");
 
         Method mostrarInformacion = clasePersona.getDeclaredMethod("mostrarInformacion");
         System.out.println("Información: " + mostrarInformacion.invoke(persona));
