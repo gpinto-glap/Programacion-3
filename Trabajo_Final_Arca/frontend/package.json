@@ -1,0 +1,24 @@
+{
+  "name": "facturacion-front-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && concurrently \"tsc --watch\" \"nodemon dist/server.js\"",
+    "start": "npm run build && node dist/server.js",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "test:e2e": "npm run build && node scripts/test-browser.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/express": "^4.17.25",
+    "@types/node": "^22.10.0",
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
